@@ -81,6 +81,6 @@ else{
 for(i=front;i<=rear;i++){
 	printf("\n%d",queue[i]);
 
-  }
- }	
+   }
+  }	
 }
