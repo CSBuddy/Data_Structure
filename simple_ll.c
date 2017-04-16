@@ -34,6 +34,4 @@ int main(){
  	printf("%d\n",second->data);
 
 return 0;
-
-
 }
