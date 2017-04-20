@@ -72,5 +72,5 @@ void pop()
 	{
 	top=top-1;	
 	}
-}
+ }
 
