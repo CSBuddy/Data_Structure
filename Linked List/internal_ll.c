@@ -42,6 +42,6 @@ int main(){
 	printf("%d\n",second->data);
 	printf("%d\n",second->link);
 return 0;
-
+//Note:this program is especially for beginners who get confuses, what will be printed if I print data part or link part or head->data like this doubt etc.
 
 }
