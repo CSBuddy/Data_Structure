@@ -8,7 +8,6 @@ struct node{
 };
 struct node*head;
 
-
 struct node* insert_at_end(int x){
 	struct node* ptr;
 	struct node* temp;
@@ -26,7 +25,6 @@ struct node* insert_at_end(int x){
 	return(head);
 	}
 	else{
-	
 	head=temp;
 	}
 }
