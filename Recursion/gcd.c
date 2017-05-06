@@ -1,4 +1,5 @@
 #include<stdio.h>
+//Defining gcd function
 int gcd(int x , int y)
 {
 	if(y==0)
