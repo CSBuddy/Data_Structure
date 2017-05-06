@@ -14,6 +14,7 @@ int gcd(int x , int y)
 
 int main(){
 	int x,y,g;
+//input
 	printf("Enter X & Y\n");
 	scanf("%d%d", &x, &y);
 //Function calling
