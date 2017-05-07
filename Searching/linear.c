@@ -25,9 +25,12 @@ int main()
 	  scanf("%d",&a[i]);	
 	}
 //key	
-	printf("Enter key to be search\n");
+	printf("Enter key for searching\n");
 	scanf("%d",&key);
+
+//function calling	
 	i=search(key,a,10);
+
 //output
 	if(i==-1)
 	{
