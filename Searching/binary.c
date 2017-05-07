@@ -1,3 +1,5 @@
+/*Binary search program
+You need to input only sorted numbers*/
 #include<stdio.h>
 //function defining
 int bsearch(int key, int *a,int n)
