@@ -1,5 +1,5 @@
 #include<stdio.h>
-//mplexity of this program is also O(n^2).
+//Complexity of this program is also O(n^2).
 void select(int *a, int n)
 {
 	int k,j,temp,small,pos;
