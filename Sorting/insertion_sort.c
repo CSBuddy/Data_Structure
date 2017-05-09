@@ -9,8 +9,8 @@ void insert(int *a, int n)
     i=j-1;
   while(i>=0 && a[i]>key)
      {
-       a[i+1]=a[i];
-       i=i-1;
+       a[i+1]=a[i];//if element is greater then it will shift to right side
+       i=i-1;//location will decrement
      }
   a[i+1]=key;
   }
