@@ -9,6 +9,7 @@ int rear=-1;
 int enQueue(int);
 int deQueue();
 void display();
+void peek();
 
 void main(){
 
@@ -18,7 +19,7 @@ int choice;
 while(1){
 	printf("\n****************************\n");
 	printf("Enter the number for operation on queue\n");
-	printf("1.enqueue\n2.dequeue\n3.display\n");
+	printf("1.enqueue\n2.dequeue\n3.display\n4.Peek");
 	scanf("%d",&choice);
 switch(choice){
 
@@ -34,6 +35,11 @@ case 2:
 case 3:
 	display();
 	break;
+		
+case 4:
+		peek();   // Peek displays the first element of the queue
+		break;
+		
 
 default:
 	printf("Wrong input please try again.\n");
@@ -69,6 +75,11 @@ printf("%d deleted from queue\n",queue[front]);
 front=front+1;
 	}
   }
+void peek()
+{
+    printf("The top element of the Stack is : %d",queue[front]);
+}
+
 
 void display(){
 
